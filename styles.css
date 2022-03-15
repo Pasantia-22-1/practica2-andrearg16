@@ -1,0 +1,8 @@
+.links {
+    background-color: darkblue;
+}
+
+ul.links__list {
+    display: inline;
+    padding-right: 0.3px;
+}

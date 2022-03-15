@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="./styles.css">
 
 <body>
     <!------------HEADER---------------->
-    <div>
-        <header class="links">
+
+    <header class="links">
+        <nav>
             <ul class="links__list">
                 <li class="links__list__products"><a href="products.html">Products</a></li>
                 <li class="links__list__dev"><a href="developer.html">Developers</a></li>
@@ -19,8 +21,9 @@
                 <li class="links__list__blog"><a href="blog.html">Blog</a></li>
                 <li class="links__list__aboutus"><a href="aboutus.html">About us</a></li>
             </ul>
-        </header>
-    </div>
+        </nav>
+    </header>
+
     <!-------------PRESENTATION------------->
     <div class="pesentation">
         <h1 class="presentation__title1">Developers Love Docker.</h1>
@@ -38,27 +41,67 @@
     <!--------------MAIN CONTAINER------------>
     <main class="container">
         <h1 class="container__tittle">Accelerate how you build, share, and run modern applications.</h1>
-    </main>
-    <section id="appinformation">
-        <ul class="informationapp">
-            <li class="informationapp__dev"><strong>13 million +</strong><span>developers</span></li>
-            <li class="informationapp__app"><strong>7 million +</strong><span>applications</span></li>
-            <li class="informationapp__dow"><strong>13 billion +</strong><span>monthly image downloads</span></li>
-        </ul>
-        <button name="buton2" class="button">Get started</button>
-    </section>
-    <!------------------------------------------------------>
-    <section id="section">
-        <h1 class="section__tittle">Docker makes development efficient and predictable</h1>
-        <p class="section__p">
-            Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud. Docker’s comprehensive end to end platform includes UIs, CLIs, APIs and
-            security that are engineered to work together across the entire application delivery lifecycle.
-        </p>
-    </section>
-    <!------------------------------------------------------->
-    <section id="section2">
 
-    </section>
+        <div id="appinformation">
+            <ul class="informationapp">
+                <li class="informationapp__dev"><strong>13 million +</strong><span>developers</span></li>
+                <li class="informationapp__app"><strong>7 million +</strong><span>applications</span></li>
+                <li class="informationapp__dow"><strong>13 billion +</strong><span>monthly image downloads</span></li>
+            </ul>
+            <button name="buton2" class="button">Get started</button>
+        </div>
+        <!------------------------------------------------------>
+        <section>
+            <div class="section">
+                <h1 class="section__tittle">Docker makes development efficient and predictable</h1>
+                <p class="section__p">
+                    Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud. Docker’s comprehensive end to end platform includes UIs, CLIs, APIs and
+                    security that are engineered to work together across the entire application delivery lifecycle.
+                </p>
+            </div>
+        </section>
+        <!------------------------------------------------------->
+        <section>
+            <div class="section2">
+                <h1 class="section2__title">Build</h1>
+                <ul>
+                    <li>
+                        <p>Get a head start on your coding by leveraging Docker images to efficiently develop your own unique applications on Windows and Mac. Create your multi -container application using Docker Compose. </p>
+                    </li>
+                    <li>
+                        <p>Integrate with your favorite tools throughout your development pipeline - Docker works with all development tools you use including VS Code, CircleCI and GitHub.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Package applications as portable container images to run in any environment consistently from on-premises Kubernetes to AWS ECS, Azure ACI, Google GKE and more.
+                        </p>
+                    </li>
+                    <img src="./imagenes/img3.png" alt="">
+                </ul>
+
+            </div>
+        </section>
+        <!----------------------------------------------------------->
+        <section>
+            <div class="section3">
+                <h1 class="section3__tittle">Share</h1>
+                <ul>
+                    <li>
+                        <p>Leverage Docker Trusted Content, including Docker Official Images and images from Docker Verified Publishers from the Docker Hub repository.</p>
+                    </li>
+                    <li>
+                        <p>Innovate by collaborating with team members and other developers and by easily publishing images to Docker Hub.</p>
+                    </li>
+                    <li>
+                        <p>Personalize developer access to images with roles based access control and get insights into activity history with Docker Hub Audit Logs.
+                        </p>
+                    </li>
+                </ul>
+                <img src="./imagenes/img4.png" alt="">
+
+            </div>
+        </section>
+    </main>
 
 
 
